@@ -11,7 +11,7 @@ import streamlit as st
 
 
 APP_DIR = Path(__file__).resolve().parent
-DEFAULT_DATA = APP_DIR / "data" / "draft_data.csv"
+DEFAULT_DATA = APP_DIR "draft_data.csv"
 REQUIRED_COLUMNS = {
     "Fantasy Team",
     "Round",
